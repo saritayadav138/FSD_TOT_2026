@@ -18,7 +18,7 @@ let a=100;
           {/* <h1 style={{backgroundColor: 'pink',color:'blue'}}>value of a = {a}</h1>
           <Gallary /> */}
           {/* <ImageManipulation /> */}
-          <Login />
+          <ImageManipulation />
           </div>
     
   )
