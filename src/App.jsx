@@ -1,0 +1,27 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import heroImg from './assets/hero.png'
+import './App.css'
+import Gallary from './component/Gallary'
+import ImageManipulation from './component/ImageManipulation'
+import MyCounter from './component/MyCounter'
+import Login from './component/Login'
+
+function App() {
+  const [count, setCount] = useState(0)
+let a=100;
+  return (
+    
+      <div>
+      <h2  style = {{color:'red'}}>Welcome to MERN Stack Development</h2>
+          {/* <h1 style={{backgroundColor: 'pink',color:'blue'}}>value of a = {a}</h1>
+          <Gallary /> */}
+          {/* <ImageManipulation /> */}
+          <Login />
+          </div>
+    
+  )
+}
+
+export default App
